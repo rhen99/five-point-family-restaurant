@@ -1,0 +1,85 @@
+@media (min-width: 768px) {
+  //iPad Size
+  .showcase,
+  .menu,
+  .about,
+  .contact {
+    &__title {
+      font-size: 36px;
+    }
+  }
+  .about {
+    &__text {
+      font-size: 20px;
+    }
+  }
+  .scroll-down {
+    margin: 1rem 0;
+  }
+  .menu {
+    &__grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 16px;
+    }
+    &__section {
+      &__title {
+        font-size: 32px;
+      }
+      &__subtitle {
+        font-size: 20px;
+      }
+    }
+    &__item {
+      &__title {
+        font-size: 24px;
+      }
+      &__text {
+        font-size: 20px;
+      }
+    }
+  }
+}
+@media (min-width: 1024px) {
+  // iPad Pro Size
+  .showcase {
+    &__title {
+      font-size: 42px;
+    }
+    &__inner {
+      img {
+        width: 700px;
+      }
+    }
+    &__link {
+      font-size: 24px;
+    }
+  }
+}
+@media (min-width: 1280px) {
+  .contact {
+    height: 100vh;
+    &__container {
+      display: flex;
+      height: 100%;
+      width: 100%;
+    }
+    &__location {
+      height: 100%;
+      flex: 1;
+    }
+    &__form {
+      flex: 1;
+    }
+  }
+  .scroll-down {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1440px) {
+  .menu {
+    &__grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}

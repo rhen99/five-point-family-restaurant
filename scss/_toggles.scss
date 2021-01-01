@@ -1,0 +1,23 @@
+.scroll-down {
+  color: #fff;
+  z-index: 5;
+  display: block;
+  margin-top: 4rem;
+  font-size: 20px;
+  font-weight: 700;
+  transition: opacity 500ms;
+}
+.up {
+  animation: up 800ms ease-in infinite;
+}
+.scrolled {
+  opacity: 0;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 20;
+}
